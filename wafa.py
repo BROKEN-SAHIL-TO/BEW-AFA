@@ -354,6 +354,7 @@ def main_menu():
     print(random.choice(color_list) + "[3] SMS DISPLAY SHOW")
     animated_print("<============================ CHOOSE MENU OPTIONS ===========================>", delay=0.005, jitter=0.002)
     choice = input(random.choice(color_list) + "\n[+]  CHOOSE AN  OPTION ::").strip()
+    <<═════════════════════════════════════════════════════════════════════════>>
     if choice == "2":
         stop_input = input(Fore.BLUE + "ENTER YOUR STOP KEY:::🔛 ").strip()
         animated_print("<<════════════════════════════════════════════════════════>>")
@@ -491,7 +492,7 @@ if os.path.exists("stop_signal.txt"):
 animated_logo()
 
 # Then, show the original colored logo and venom animations
-colored_logo = lambda: [print("".join(f"\033[38;5;{random.randint(16,88)}m" + char for char in line) + "\033[0m") for line in r"""  \033[1;32m \033[1;91m\033[1;41m\033[1;33m🔛 WELCOME YOUR NADEEN TERMUX OWNER BROKEN NADEEM INSIDE 🔛\033[;0m\033[1;91m\033[1;92m\033[38;5;46m
+colored_logo = lambda: [print("".join(f"\033[38;5;{random.randint(16,88)}m" + char for char in line) + "\033[0m") for line in r""" 
 
    """.splitlines()]
 colored_logo()
