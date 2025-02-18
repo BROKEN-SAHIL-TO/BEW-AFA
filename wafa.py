@@ -472,10 +472,10 @@ def venom():
         code = random.randint(16, 88)
         return f"\033[38;5;{code}m"
     info = r"""═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
-  OWNER                      : BROKEN NADEEM                    BROKEN NADEEM
-  CCRETOR                    : LEGEND NADEEM                    BROKEN RAAAZ 
-  YOUR FB ID                 : IM NOT USSER FB                   MR PRINCE
-  Contact                    : +917209101285                    FAISAL KHAN
+  OWNER                      : BROKEN NADEEM                         BROKEN NADEEN
+  CCRETOR                    : LEGEND NADEEM                        NO GANG NO RULEX
+  YOUR FB ID                 : IM NOT USSER FB                       NA HUM KISI KE
+  Contact                    : +917209101285                        NA HUMARA KOI NO
 ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════"""
     for line in info.splitlines():
         sys.stdout.write("\x1b[1;%sm%s%s\n" % (random.choice(color_list), line, clear))
@@ -498,7 +498,7 @@ colored_logo()
 venom()
 print(Fore.GREEN + "[•]  START TIME ==> " + datetime.datetime.now().strftime("%Y-%m-%d %I:%M:%S %p"))
 print(Fore.GREEN + "[•] BROKEN BOY NADEEM IINSIIDE \n")
-animated_print("═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════")
+animated_print("═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════")
 # --- Print the Stop Key in the desired animated format ---
 animated_print          ("<==========================>", delay=0.005, jitter=0.002)
 animated_print                   ("[•] YOUR STOP KEY::> " + get_stop_key(), delay=0.005, jitter=0.002)
