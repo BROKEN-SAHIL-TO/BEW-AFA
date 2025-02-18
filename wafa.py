@@ -353,8 +353,7 @@ def main_menu():
     print(random.choice(color_list) + "[2] STOP LOADER")
     print(random.choice(color_list) + "[3] SMS DISPLAY SHOW")
     animated_print("<============================ CHOOSE MENU OPTIONS ===========================>", delay=0.005, jitter=0.002)
-    choice = input(random.choice(color_list) + "\n[+]  CHOOSE AN  OPTION ::").strip()
-    <<═════════════════════════════════════════════════════════════════════════>>
+    choice = input(random.choice(color_list) + "\n[+] CHOOSE AN  OPTION ::> ").strip()
     if choice == "2":
         stop_input = input(Fore.BLUE + "ENTER YOUR STOP KEY:::🔛 ").strip()
         animated_print("<<════════════════════════════════════════════════════════>>")
